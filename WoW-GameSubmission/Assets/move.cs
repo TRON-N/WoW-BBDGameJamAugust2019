@@ -3,9 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class moveLeft : MonoBehaviour
+public class move: MonoBehaviour
 {
     public Vector3 initVel;
+    public KeyCode leftKey;
+    public KeyCode downKey;
+    public KeyCode rightKey;
 
     // Start is called before the first frame update
     void Start()
@@ -17,17 +20,17 @@ public class moveLeft : MonoBehaviour
     {
         Vector3 currentVel = this.GetComponent<Rigidbody2D>().velocity;
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(leftKey))
         {
             currentVel.x -= 0.05f;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(rightKey))
         {
             currentVel.x += 0.05f;
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(downKey))
         {
             if (currentVel.y < 0)
             {
