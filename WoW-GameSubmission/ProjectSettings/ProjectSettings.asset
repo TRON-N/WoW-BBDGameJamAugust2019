@@ -567,6 +567,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -587,10 +588,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 7bd34cc3-7dcb-4e7e-b17e-e47d9827789c
+  cloudProjectId: 72d68377-f9a2-4829-aee1-5d15ec42b646
   framebufferDepthMemorylessMode: 0
   projectName: WoW-GameSubmission
-  organizationId: t_r_o_n
+  organizationId: unity_-bkai5c4m1ckfq
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0

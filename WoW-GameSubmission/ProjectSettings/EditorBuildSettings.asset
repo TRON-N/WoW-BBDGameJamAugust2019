@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PhysicsDemoScene.unity
+    guid: 98a8538ec43e3964db8f4a102c07aac8
   m_configObjects: {}
