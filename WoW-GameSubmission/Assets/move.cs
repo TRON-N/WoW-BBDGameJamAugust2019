@@ -9,6 +9,7 @@ public class move: MonoBehaviour
     public KeyCode leftKey;
     public KeyCode downKey;
     public KeyCode rightKey;
+    public AudioSource bounceSound;
 
     // Start is called before the first frame update
     void Start()
@@ -39,5 +40,11 @@ public class move: MonoBehaviour
         }
 
         this.GetComponent<Rigidbody2D>().velocity = currentVel;
+
+
+    }
+
+    void OnCollisionEnter2D(Collision2D target) {
+            bounceSound.Play();
     }
 }
